@@ -1,0 +1,44 @@
+[
+  {
+    "id": "exp-blink",
+    "title": "Blink LED",
+    "description": "Make the onboard LED blink every second.",
+    "difficulty": "Easy",
+    "category": "LEDs",
+    "learningOutcome": "Understand digital output.",
+    "time": "2 Minutes",
+    "hexFile": "demo001.hex",
+    "icon": "lightbulb",
+    "color": "#4ADE80",
+    "objectives": ["Connect the board", "Flash the code", "Observe the light blinking on and off"],
+    "components": ["Embedded Kit", "ST-Link V2"]
+  },
+  {
+    "id": "exp-sound",
+    "title": "Play Melody",
+    "description": "Play a simple tune using the buzzer.",
+    "difficulty": "Medium",
+    "category": "Sound",
+    "learningOutcome": "Understand PWM and frequencies.",
+    "time": "5 Minutes",
+    "hexFile": "demo002.hex",
+    "icon": "music",
+    "color": "#60A5FA",
+    "objectives": ["Connect the buzzer", "Flash the code", "Listen to the melody"],
+    "components": ["Embedded Kit", "ST-Link V2", "Buzzer Module"]
+  },
+  {
+    "id": "exp-temp",
+    "title": "Temperature Sensor",
+    "description": "Read the ambient temperature.",
+    "difficulty": "Hard",
+    "category": "Temperature",
+    "learningOutcome": "Understand ADC and I2C.",
+    "time": "10 Minutes",
+    "hexFile": "demo003.hex",
+    "icon": "thermometer",
+    "color": "#F87171",
+    "objectives": ["Connect LM35 sensor", "Flash the code", "Monitor temperature in UART"],
+    "components": ["Embedded Kit", "ST-Link V2", "LM35 Sensor"]
+  }
+]
